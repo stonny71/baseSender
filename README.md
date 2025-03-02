@@ -9,16 +9,17 @@ A Python-based tool designed to send Base Ethereum (ETH) to multiple wallets con
 - Supports storing wallet addresses and related data in a simple text format (`wallets.txt`).
 
 #### Getting Started:
-1. Clone the repository:
-   ```
-   git clone https://github.com/stonny71/baseSender.git
-   ```
-2. Install required dependencies (e.g., Web3.py for Ethereum interactions):
+1. Install required dependencies (e.g., Web3.py for Ethereum interactions):
    ```
    pkg install python
    pip install web3
+ 
+2. Clone the repository:
    ```
-   (Add any other required Python packages here, if applicable.)
+   git clone https://github.com/stonny71/baseSender.git
+   cd baseSender
+   ```
+   
 3. Configure your wallet data in `wallets.txt` and settings in `config.py`.
 4. Run the main script:
    ```
