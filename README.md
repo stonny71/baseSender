@@ -2,7 +2,7 @@
 A Python-based tool designed to send Base Ethereum (ETH) to multiple wallets concurrently with extremely low gas fees (as low as $0.002). This repository includes scripts to manage wallet configurations (`config.py`), handle the core sending logic (`main.py`), and store wallet information (`wallets.txt`). The project is optimized for efficiency and cost-effectiveness, making it ideal for bulk ETH transactions on the Ethereum network.
 
 #### Features:
-- Sends ETH to multiple wallets simultaneously.
+- Sends ETH (base) to multiple wallets simultaneously.
 - Minimizes gas fees, achieving costs as low as $0.002 per transaction.
 - Configurable settings for wallet management and transaction parameters via `config.py`.
 - Main processing logic in `main.py` for executing bulk transactions.
